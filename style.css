@@ -1,0 +1,47 @@
+/* Center the .center element in the middle of the page */
+body {
+    display: grid;
+    place-items: center; /* Center horizontally and vertically */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+    background-image: url('./Wooden\ XO\ Board\ Game.jfif'); /* Optional: Add background image */
+    background-size: cover; /* Optional: Cover the entire page */
+    background-position: center; /* Optional: Center the background image */
+    background-repeat: no-repeat; /* Optional: Prevent background image repetition */
+}
+
+.center {
+    /* Optional styles for the center element */
+    width: auto; /* Adjust width if needed */
+    text-align: center;
+}
+
+.game {
+    width: 255px;
+text-align: center;
+font-family: system-ui;
+color: white;
+margin: auto;
+font-weight: 500;
+
+}
+.title {
+    background-color: rgb(81, 45, 8);
+    padding: 5px 0;
+    margin: 5px 0;
+}
+span {
+    color: rgb(240, 128, 8);
+}
+.square{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(81, 45, 8);
+    float: left;/*jibhm jnb ba3d*/
+    margin: 2px;/*lfaragh libinathm*/
+    font-size: 50px;
+}
+.square:hover{
+    background-color: rgb(217, 134, 50);
+    cursor: pointer;
+}
